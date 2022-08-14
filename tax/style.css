@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "graphik", sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px 40px;
+}
+.logo{
+    padding: 10px;
+}
+nav{
+    flex: 1;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: darkslategray;
+    font-weight: 100px;
+}
+.navbar button {
+    display: inline-block;
+    background:  #ebebeb;
+    color: black;
+    padding: 10px;
+    margin: 0 20px 20px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+    font-size: 20px;
+}
+
+.navbar button .fa {
+    margin-right: 5px;
+}
+.row{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+.container{
+    background: rgb(191, 205, 191);
+    padding: 80px 20px 20px 0px;
+    margin: auto;
+    padding-left: 25px;
+    display: inline-block;
+    box-sizing: inherit;
+    padding-right: 25px;
+}
+.mainbox{
+    display: flex;
+    background-color: rgb(241, 245, 247);
+}
+.mainbox-col{
+    padding: 0px 60px;
+    padding-top: 80px;
+    margin-top: 40px;
+}
+.mainbox-col h1{
+    font-size: 60px;
+    line-height: 60px;
+    margin: 0,0,20px;
+}
+.mainbox-col p{
+    flex-basis: 50%;
+    margin: 0px,0px,20px;
+    padding: 30px 10px;
+    font-size: 20px;
+}
+.mainbox-col img{
+    position: relative;
+    margin-top: -100px;
+    margin-right: -100px;
+}
+.mainbox-col p a{
+    color: #11a63d;
+}
+.main-btn{
+    display: inline-block;
+    background: #11a63d;
+    border: 2px solid #11a63d;
+    color: white;
+    padding: 30px 80px;
+    margin: 0 20px 20px 0;
+    border-radius: 60px;
+    transition: background 0.5s;
+    font-size: 20px;
+}
+.buttons .fa-map-marker{
+    padding: 0,0,0,20px;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 h1{
+    font-size: 60px;
+    line-height: 60px;
+    margin: 0,0,20px;
+}
+.col-2 img{
+    max-width: 80%;
+    padding: 80px 20px;
+    border-radius: 40px;
+}
+.col-2 p{
+    margin: 0px,0px,20px;
+    padding: 20px 10px;
+    font-size: 20px;
+}
+.btn{
+        display: inline-block;
+        background: #11a63d;
+        color: white;
+        padding: 20px 80px;
+        margin: 0 20px 20px 0;
+        border-radius: 30px;
+        transition: background 0.5s;
+        font-size: 20px;
+}
+.btn2{
+    display: inline-block;
+    background: white;
+    color: black;
+    padding: 20px 80px;
+    margin: 0 20px 20px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+    font-size: 20px;
+}
+.btn:hover{
+    background: black;
+}
+.btn2:hover{
+    background: black;
+    color: white;
+}
+.help{
+    text-align: center;
+    font-size: 32px;
+    margin-top: 60px;
+}
+.help-col-2{
+    flex-basis: 40;
+    border: 2px solid green;
+    box-sizing: border-box;
+    margin-bottom: 5%;
+    min-width: 700px;
+    position: relative;
+    margin-top: 40px;
+    /* display: flex; */
+    width: 40%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 20px 12px;
+}
+.help-col-2 h1{
+    text-align: left;
+    font-weight: 600;
+    font-size: 46px;
+}
+.help-col-2 h1:hover{
+    color: #11a634;
+}
+.partition{
+    display: flex;
+    box-sizing: border-box;
+}
+.imp-btn h5{
+    margin-top: 40px;
+    position: relative;
+    padding-top: 80px;
+    justify-content: space-between;
+}
+.help-btn{
+        display: inline-block;
+        background: #11a63d;
+        color: white;
+        padding: 20px 220px;
+        text-align: center;
+        margin: 100px 40px 40px 20px;
+        border-radius: 40px;
+        font-size: 20px;
+        border: 2px solid #11a634;
+}
+.help-col-2 img{
+    margin-top: 20px;
+    float: right;
+}
+.owntax{
+    background: #11a634;
+    height: 100%;
+}
+.tax{
+    margin: auto;
+    text-align: center;
+    padding: 80px;
+    justify-content: space-between;
+    color: white;
+}
+.tax-btn{
+    display: inline-block;
+    background: white;
+    color: black;
+    padding: 20px 80px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 30px;
+    transition: 0.5s;
+    font-size: 20px;
+}
+.tax-btn:hover{
+    background: black;
+    color: white;
+}
+.tax .mark1{
+    float: left;
+    width: 180px;
+    margin: auto;
+}
+.tax .mark2{
+    float: right;
+    width: 200px;
+}
+.tax h4{
+    font-size: 18px;
+    margin: 10px;
+}
+.tax h1{
+    font-size: 50px;
+}
+.need-box h2{
+    text-align: center;
+    margin: 100px 40px;
+    font-size: 55px;
+
+}
+.need-box p{
+    text-align: center;
+}
+.col-need-4{
+    display: inline-block;
+    max-width: 21%;
+    margin: 15px;
+    margin-top: 25px;
+    justify-content: space-around;
+    flex-basis: 25%;
+    border: 2px ;
+}
+.col-need-4 .fa-usd{
+    text-align: center;
+    margin: auto;
+    color: green;
+}
+.col-need-4 .fa-file-archive-o{
+    text-align: center;
+    color: aqua;
+}
+.col-need-4 .fa-tag{
+    text-align: center;
+    color: green;
+}
+.col-need-4 h4{
+    font-size: 23px;
+    padding: 20px 20px; 
+}
+.col-need-4 p{
+    font-size: 18px;
+    padding: 15px 30px;
+}
+.small-container{
+    background: rgb(241, 245, 247);
+}
+.small-box{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.small-box h1{
+    font-size: 60px;
+    line-height: 60px;
+    margin: 0,0,20px;
+}
+.small-box img{
+    max-width: fit-content;
+}
+.area-btn1{
+    display: inline-block;
+    background: #11a63d;
+    color:white;
+    padding: 20px 80px;
+    margin: 0px,40px,40px,0px;
+    border-radius: 30px;
+    transition: 0.5s;
+    font-size: 20px;
+}
+.area-btn2{
+    display: inline-block;
+    background: white;
+    color: black;
+    padding: 20px 80px;
+    margin: 0px,40px,40px,0px;
+    border-radius: 30px;
+    transition: 0.5s;
+    font-size: 20px;
+}
+.area-btn1:hover{
+    background: black;
+}
+.area-btn2:hover{
+    background: black;
+    color: white;
+}
+/* footer */
+.footer{
+    background: #005d1f;
+    font-size: 14px;
+    color: white;
+    padding: 60px 0 20px 40px;
+}
+.footer h3{
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+    text-align: left;
+    flex-basis: 22%;
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    padding: 5px;
+}
+.footer p{
+    padding-top: 100px;
+    padding-left: 25px;
+}
+
